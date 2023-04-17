@@ -201,9 +201,9 @@ for warframeID in range(0,len(warframe)):
     else: bgcolor = ""
     
     wfmtable.add_row([bgcolor + warframe[sortID].title(), 
-                    f"\033[38;2;203;186;238m{prices['blueprint']['Ingame'][sortID]}\033[39m  \033[38;2;155;255;155m{prices['blueprint']['Online'][sortID]}\033[39m",
-                    f"\033[38;2;203;186;238m{prices['systems']['Ingame'][sortID]}\033[39m  \033[38;2;155;255;155m{prices['systems']['Online'][sortID]}\033[39m",
-                    f"\033[38;2;203;186;238m{prices['chassis']['Ingame'][sortID]}\033[39m  \033[38;2;155;255;155m{prices['chassis']['Online'][sortID]}\033[39m",
+                    f"\033[38;2;203;186;238m{prices['blueprint']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['blueprint']['Online'][sortID]}\033[39m",
+                    f"\033[38;2;203;186;238m{prices['systems']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['systems']['Online'][sortID]}\033[39m",
+                    f"\033[38;2;203;186;238m{prices['chassis']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['chassis']['Online'][sortID]}\033[39m",
                     f"\033[38;2;203;186;238m{prices['neuroptics']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['neuroptics']['Online'][sortID]}\033[39m",
                     f"\033[38;2;203;186;238m{prices['set']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['set']['Online'][sortID]}\033[39m",
                     f"\033[38;2;203;186;238m{prices['investment']['Ingame'][sortID]}\033[39m   \033[38;2;155;255;155m{prices['investment']['Online'][sortID]}\033[39m",
